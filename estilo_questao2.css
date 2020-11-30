@@ -1,0 +1,37 @@
+table {
+    border: none;
+    width: 600px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+caption {
+    background-color: #0D5188;
+    color: white;
+}
+
+thead {
+    background-color: #66C5E3;
+}
+
+tbody {
+    background-color: #C7E7F3;
+}
+
+#cidade {
+    color: #0D5188;
+}
+
+#pos {
+    background-color: silver;
+    width: 10%;
+}
+
+#pop {
+    width: 15%;
+}
+
+#pop, #pos {
+    font-weight: normal;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        form {
+            font-family: Arial;
+            font-size: 2;
+        }
+    
+        h2 {
+            align-self: center;
+        }
+    
+        table {
+            width: 500px;
+            border: none;
+        }
+    </style>
+
+    <title>Questão 3</title>
+</head>
+<body>
+    <center><form action="">
+        <h2>Ficha Cadastral</h2>
+        <table cellspacing="1px" cellpadding="1px">
+            <tr>
+                <td>
+                    <label for="nome">Nome:</label>
+                </td>
+                <td colspan="3">
+                    <input type="text" name="nome" id="nome" size="55">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="rg">RG:</label>
+                </td>
+                <td>
+                    <input type="text" name="rg" id="rg" size="13">
+                </td>
+                <td>
+                    <label for="cpf">C.P.F.:</label>
+                </td>
+                <td>
+                    <input type="text" name="cpf" id="cpf" size="13">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="endereco">Endereço:</label>
+                </td>
+                <td colspan="3">
+                    <input type="text" name="endereco" id="endereco" size="55">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="sexo">Sexo:</label>
+                </td>
+                <td>
+                    <select name="sexo" id="sexo">
+                        <option value="m">Masculino</option>
+                        <option value="f">Feminino</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="dtNasc">Data Nascimento:</label>
+                </td>
+                <td>
+                    <input type="text" name="dtNasc" id="dtNasc" size="13">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Situação Civil:</label>
+                </td>
+                <td>
+                    <input type="radio" name="civil" id="solteiro" value="solteiro">
+                    <label for="solteiro">Solteiro(a)</label>
+                </td>
+                <td>
+                    <input type="radio" name="civil" id="casado" value="casado">
+                    <label for="casado">Casado(a)</label>
+                </td>
+                <td>
+                    <input type="radio" name="civil" id="viuvo" value="viuvo">
+                    <label for="viuvo">Viúvo(a)</label>
+                </td>
+            </tr>
+        </table>
+        <button type="reset">Limpar Dados</button>
+    </form></center>
+</body>
+</html>
